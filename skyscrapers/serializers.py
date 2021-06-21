@@ -4,7 +4,5 @@ from .models import Skyscraper
 class SkyscraperSerializer(serializers.ModelSerializer):
     class Meta:
         model = Skyscraper
-        fields = ('id','title','body','author')
-
-
+        fields = ('id','owner','name','discription','height','floors')
         
